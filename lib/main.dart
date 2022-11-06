@@ -1,3 +1,4 @@
+import 'package:az_cash/test-screen.dart';
 import 'package:camera/camera.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/gestures.dart';
@@ -74,7 +75,7 @@ class MyApp extends StatelessWidget {
       home: Builder(
         builder: (context) {
           SizeConfig().init(context);
-          return home;
+          return const  TestScreen();
         },
       ),
     );
